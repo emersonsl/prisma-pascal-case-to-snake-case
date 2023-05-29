@@ -166,32 +166,3 @@ function main(){
 }
 
 main();
-
-//attrTypeOfModel(['alguma nome mnalkmda @'], ['nome']);
-
-/*const def_model = modules[0][0].match(REGEX_DEF_MODEL);
-
-console.log('def model', def_model[0]);
-
-const model_name = [...def_model[0].matchAll(REGEX_NAME)];
-
-console.log('model name: ', model_name[1][0]);
-
-const words_name = [...model_name[1][0].matchAll(REGEX_NAME)];
-
-console.log("words name: ", words_name[0][0], words_name[1][0]);
-
-let snake_case;
-words_name.forEach((element, index) => {
-    index == 0 ? snake_case = element[0] : snake_case += '_' + element[0];
-});
-snake_case = snake_case.toLowerCase()
-console.log(snake_case.toLowerCase());
-const map_snake_case = "@@map(\""+snake_case+"\")";
-
-console.log("map: ", map_snake_case);
-
-modules[0][0] = modules[0][0].replace("}", "  "+map_snake_case+"\n}");
-
-console.log('\n\nORIGINAL\n\n', module_zero_original);
-console.log('\n\nMAPEADO\n\n', modules[0][0]);*/
