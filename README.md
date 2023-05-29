@@ -1,4 +1,4 @@
-### This script maps models and enumerations from Prisma Schema Language (PSL) files. Transforming tables and fields of database from camel case (pascal case) to snake case.
+### This script maps models and enumerations from Prisma Schema Language (PSL) files. Transforming tables and fields of database from camel case or pascal case to snake case.
 
 #### Sample input:
 
