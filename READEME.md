@@ -23,7 +23,7 @@ enum OPTION {
 }
 
 model People {
-  idPeople        Int    @id @map("id_people")
+  idPeople        Int    \@id \@map("id_people")
   nameAndLastName String @map("name_and_last_name")
   phone           String @map("phone")
 
@@ -31,6 +31,6 @@ model People {
 }
 
 
-### Technologie
+### Technology
 
 * TypeScript
