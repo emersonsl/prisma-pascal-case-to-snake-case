@@ -2,6 +2,7 @@
 
 #### Sample input:
 
+```
 enum OPTION {
   YES
   NO
@@ -12,9 +13,11 @@ model People {
   nameAndLastName String
   phone           String
 }
+```
 
 #### Sample output: 
 
+```
 enum OPTION {
   YES @map("yes")
   NO  @map("no")
@@ -29,6 +32,7 @@ model People {
 
   @@map("people")
 }
+```
 
 
 ### Technology
